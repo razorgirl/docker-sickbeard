@@ -8,7 +8,7 @@ Dockerfile to set up a Sick Beard container
 
 ## Run
 
-    docker run -d -v <LOCAL_SERIES_FOLDER>:/series -v <LOCAL_DL_FOLDER>:/downloads --name sickbeard apps/sickbeard
+    docker run -d -p 8081:8081 -v <LOCAL_SERIES_FOLDER>:/series -v <LOCAL_DL_FOLDER>:/downloads --name sickbeard apps/sickbeard
 
 ## License
 
